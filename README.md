@@ -1,5 +1,5 @@
 # Network-Design
-Project Definition:
+# Project Definition:
 The objective of this project was to design a network solution from a given scenario for the farmer’s cooperative society called Smart Farmers (SF) who are having a crop farmers associated with them so they can help them to trade directly to the customers without any third-party involvement and which was located at the Queensland state and having a six distribution centres in the different cities. There was also a small office in the Rockhampton from where the office staff do the operational work, and the member farmers were provided with the online banking facilities as well. Also, the SF were having their own proprietary software and all the things will be managed through this only for example: farmers can use this for their crops knowledge they control their crops using the sensors associated with IoT mechanisms and other operational stuffs. This was a group project, and we were four people. We need to do the following task:
 
 1) List of Business Goals and Constraints
