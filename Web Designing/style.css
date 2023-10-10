@@ -1,0 +1,89 @@
+.Fashion 
+{
+	font-family: Georgia;
+	font-size: 36px;
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+}
+
+.text 
+{
+	font-family: Georgia;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+}
+
+.dsc 
+{
+	font-family: Verdana;
+	background-color: #DDE3FF;
+	font-size: 9px;
+	padding: 5px;
+}
+
+.navi 
+{
+	font-size: 20px;
+	background-color: #F0F0F0;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: 1px solid #000033;
+	text-decoration: none;
+	color: #000000;
+}
+
+body 
+{
+	background-image: url(images/bg.jpg);
+}
+
+a:hover 
+{
+	color: #FFCEFF;
+	background-color: #000000;
+	background-image: none;
+	text-decoration: none;
+}
+
+.dsclink 
+{
+	background-color: #F0F0F0;
+	border: 1px solid #000000;
+	color: #000000;
+	text-decoration: none;
+}
+
+.aboutus 
+{
+	font-family: "Times New Roman";
+	font-size: 20px;
+	color: #000000;
+}
+
+.plcy 
+{
+	font-family:sans-serif;
+	background-color: #B7FFFF;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.email 
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.brand 
+{
+	font-family: Helvetica;
+	font-size: 18px;
+	font-style: normal;
+	color: #000000;
+}
+

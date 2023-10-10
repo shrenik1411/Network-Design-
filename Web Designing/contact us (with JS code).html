@@ -1,0 +1,113 @@
+<!-----Starting Of HTML Tag------->
+<html>
+  <head>
+    <title>World Of Toys</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link href="style.css" rel="stylesheet" type="text/css"><!-----CSS FILE------->
+
+<script type="text/javascript">
+function valid() 
+{
+var na = document.getElementById("Name").value;
+var ag = document.getElementById("age").value;
+var em = document.getElementById("Email").value.indexOf("@");
+if(na==""||na==null)
+{
+alert("Enter The Name");
+return false;
+}
+else if(isNaN(ag)||ag<1||ag>100)
+{
+alert("The age must be a number between 1 and 100");
+return false;
+}
+else if(em==-1) 
+{  
+alert("E-mail ID is not valid");
+return false;
+}
+else
+localStorage.setItem("myvalue1",na);
+localStorage.setItem("myvalue2",ag);
+localStorage.setItem("myvalue3",em);
+window.location.href="result.html";
+}
+</script>
+</head>
+
+<!-----Starting Of Body Tag------->
+
+  <body>
+    <div align="center"> <!-----Company's Logo------->
+
+      <p><a href="index.html"><img src="images/logo.png" width="500" height="150" border="0"></a></p>
+      
+      <p align="center"><a href="index.html" class="navi">Home</a> | <a href="legomodels.html" class="navi">Lego Models</a> | <a href="playingcards.html" class="navi">PlayingCards</a> | <a href="boardgames.html" class="navi">Board Games</a> |  <a href="rctoys.html" class="navi">RCToys</a> | <a href="hour.html" class="navi">Openinghours</a> | <a href="aboutus.html" class="navi">About Us</a> | <a href="contact.html" class="navi">Contact Us</a>
+      </p>
+<!-----IMAGE DISPLAY / PAGE CONTENT ------->
+    <div align="center"></div>
+      <table width="1001" height="590" border="0" align="center">
+        <tr>
+          <td width="10" height="586">&nbsp;</td>
+          <td width="545" align="left" valign="top" class="Fashion">
+            <p class="brand style6"><em><strong>Contact US </strong></em></p>
+            <ul>
+              <li class="brand"><strong>Phone<br>
+              (+61) <span class="aboutus">0421620529</span></strong>
+              </li>
+            </ul>
+            
+            <ul>
+              <li class="brand"><strong>E-mail<br>
+              <a href="mailto:enquiries@fwave.com" class="email">Andrew Chiou (a.chiou@cqu.edu.au)</a></strong>
+              </li>
+            </ul>
+          
+            <ul>
+              <li class="brand"><span class="brand"><strong>Address<br>
+                505 George Street, Sydney, NSW 2000</strong></span><strong><br></strong>
+              </li>
+            </ul>
+          
+		  
+		  <h3 id="s1">To subscribe to our newsletter, please enter your contact details:</h3>
+<form action="result.html" method="post" onsubmit="return valid()">
+  	  		              
+              <table width="446" border="1" align="center" bordercolor="#000000">
+                <tr>
+                  <td width="96" align="left" valign="middle" class="brand"><strong class="brand">Name</strong></td>
+                  <td width="327" align="left" valign="middle"><input name="Name" type="text" id="Name"></td>
+                </tr>
+				<tr>
+                  <td align="left" valign="middle" class="brand"><strong class="brand">Age</strong></td>
+                
+                  <td align="left" valign="middle"><input name="age" type="text" id="age" size="3"></td>
+                </tr>
+              
+                <tr>
+                  <td align="left" valign="middle" class="brand"><strong class="brand">Email</strong></td>
+                
+                  <td align="left" valign="middle"><input name="Email" type="text" id="Email" size="40"></td>
+                </tr>
+                
+			<tr align="center">
+                <td colspan="3"><strong>
+			     <input name="Submit" type="submit"  >
+                  </strong>
+                  </td>
+                </tr>
+              
+              </table>
+			  
+            </form>          
+            <p>&nbsp;</p>
+<!----- End of IMAGE DISPLAY / PAGE CONTENT ------->     
+ 
+    <div align="center">
+      <p class="dsc">&copy;The images contained therein on this website were sourced from various internet websites. These images are not used for profit or business purposes. Its sole purpose is for education. In the event that these images are copyighted and ownership can be evidenced, please contact Andrew Chiou(a.chiou@cqu.edu.au) and the images will be immediately removed from this archive.</p>
+    </div>
+<!-----Ending Of Body Tag ------->
+  </body>
+<!-----Ending Of HTML Tag ------->
+</html>
+
